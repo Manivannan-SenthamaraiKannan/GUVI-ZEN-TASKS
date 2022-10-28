@@ -1,0 +1,67 @@
+In simple terms. “A JavaScript object is a collection of named values having state and behavior (properties and method)”.
+For example: Person, car, pen, bike, Personal Computer , Washing Machine etc.
+
+Take the case of cars.
+All cars have the same properties, but the property values differ from car to car. All cars have the same methods, but the methods
+are performed at different times.
+
+Let’s have an example of my favorite merc car and list out its properties(Features):
+Make: Suzuki
+Model: s-cross
+Color: White
+Fuel: Diesel
+Weight: 850kg
+Mileage: 20Kmpl
+Rating: 4.5
+
+1)Objects:
+The following code assigns a simple value (Mercedes) to a variable named car:
+
+            var car = "Suzuki";
+
+Objects are variables too. But objects can contain many values.
+The following code assigns many values (Suzuki, s-cross, White and soo on) to a variable named Car:
+
+            var car = {Make: “Suzuki”,
+                       Model: “S-Cross”,
+                       Color: “White”,
+                       Fuel: Diesel,
+                       Weight: “850kg”,
+                       Mileage: “20Kmpl”,
+                       Rating: 4.5};
+
+The values are written as name:value pairs (name and value separated by a colon).
+
+Syntax:
+var <object-name> = {key1: value1, key2: value2,... keyN: valueN};
+So, conclusion and definition for JS objects is “JavaScript objects are containers for named values”.
+
+2)Object Properties
+The name:values pairs (in JavaScript objects) are called properties.
+var car = {Make: “Suzuki”, Model: “s-cross”, Color: “White”, Fuel: Diesel, Weight: “850kg”,Mileage: “20Kmpl”, Rating: 4.5};
+The object properties can be different primitive values, other objects and functions.
+
+Properties can usually be changed, added, and deleted, but some are read only.
+
+The syntax for adding a property to an object is :
+
+    ObjectName.ObjectProperty = propertyValue;
+
+The syntax for deleting a property from an object is:
+
+    delete ObjectName.ObjectProperty;
+
+The syntax to access a property from an object is:
+
+    objectName.property        // Car.Make
+
+           //or
+
+    objectName["property”]    // Car["Make"]
+
+          //or
+
+    objectName[expression]   // x = "Make"; Car[x]
+
+So, Conclusion and simple definition for Java Script properties is “Properties are the values associated with a JavaScript object”.
+Footer
