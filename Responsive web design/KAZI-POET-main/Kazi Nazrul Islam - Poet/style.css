@@ -1,0 +1,679 @@
+#container {
+  background-color: #000000;
+  width: 100%;
+  margin: 0 auto;
+  height: 90vh;
+}
+
+#menus {
+  display: flex;
+  color: whitesmoke;
+  flex-direction: row;
+  gap: 2rem;
+  list-style-type: none;
+  height: 3rem;
+  width: 0 auto;
+  align-items: center;
+  margin: 0rem 0rem;
+  padding: 3rem 5rem;
+  justify-content: flex-start;
+}
+
+#menus > li{
+  font-size: 1.5rem;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  height: 60vh;
+}
+
+.poet {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+h1 {
+  font-size: 5rem !important;
+}
+
+#slogan {
+  font-size: 2rem;
+}
+
+#about {
+  display: flex;
+  flex-direction: row;
+  background-color: antiquewhite;
+  width: 100%;
+  margin: 0 auto;
+  height: 90vh;
+}
+
+#left-side {
+  width: 55%;
+  padding: 3rem 3rem;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+.para {
+  font-size: 1.2rem;
+}
+
+#right-side {
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+  padding-top: 6.5rem;
+  padding-left: 12rem;
+  padding-right: 8rem;
+  padding-bottom: 1rem;
+  margin: 0 auto;
+}
+
+#kazi {
+  vertical-align: top;
+  border-style: solid;
+  height: 483px;
+  width: 375px;
+  scale: 1;
+}
+
+#links {
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  width: 100%;
+  margin: 0 auto;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 1.4rem;
+  height: 20vh;
+}
+
+#button {
+  border-radius: 0.3em;
+}
+
+#wiki {
+  height: 32px;
+  width: 32px;
+}
+
+#quotes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  background-color: black;
+}
+
+#word {
+  color: whitesmoke;
+  padding: 3rem 3rem;
+  margin: 0 auto;
+}
+
+#awards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: cornsilk;
+}
+
+#award-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 13rem;
+  background-color: cornsilk;
+}
+
+.medals {
+  border-style: solid;
+  border-radius: 0.5rem;
+  width: 20%;
+  height: 10rem;
+  padding: 1rem 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+#works {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 30rem;
+  margin: 0 auto;
+  gap: 2rem;
+  background-color: cornsilk;
+}
+
+#poetry {
+  /* border-style: solid; */
+  width: 50%;
+  margin: 0 auto;
+  padding: 1rem 3rem;
+  text-align: justify;
+}
+
+#poet {
+  text-align: center;
+  padding: 1rem 1rem;
+}
+
+#poem {
+  /* border-style: solid; */
+  width: 50%;
+  margin: 0 auto;
+  padding: 1rem 3rem;
+  text-align: justify;
+}
+
+#poemt {
+  text-align: center;
+  padding: 1rem 1rem;
+}
+
+#footer {
+  background-color: black;
+  width: 100%;
+  margin: 0 auto;
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#left {
+  color: whitesmoke;
+  width: 30%;
+  margin: 0 auto;
+  padding: 1rem 1rem;
+  border-right: solid;
+  height: 20vh;
+}
+
+#center {
+  color: whitesmoke;
+  width: 30%;
+  margin: 0 auto;
+  padding: 1rem 1rem;
+  border-right: solid;
+  height: 20vh;
+}
+
+#right {
+  color: whitesmoke;
+  width: 30%;
+  margin: 0 auto;
+  padding: 1rem 1rem;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 1024px) {
+  body {
+    width: 100%;
+    padding: 0rem;
+    margin: 0 auto;
+  }
+  #container {
+    width: 100%;
+    padding: 0rem 0rem;
+    background-color: black;
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+  #menus {
+    display: flex;
+    color: whitesmoke;
+    flex-direction: row;
+    gap: 2rem;
+    list-style-type: none;
+    height: 3rem;
+    width: 0 auto;
+    align-items: center;
+    margin: 0rem 0rem;
+    padding: 3rem 5rem;
+    justify-content: flex-start;
+  }
+  .poet {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+  }
+  h1 {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto !important;
+    font-size: 5rem !important;
+    align-items: center;
+    justify-content: center;
+  }
+  #slogan {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto !important;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+  #about {
+    display: flex;
+    flex-direction: row;
+    background-color: antiquewhite;
+    width: 100%;
+    margin: 0 auto;
+    height: 80vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  #left-side {
+    width: 60%;
+    padding: 3rem 3rem;
+    text-align: justify;
+  }
+  .para {
+    font-size: 1.2rem;
+  }
+  #right-side {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    padding-left: 12.5rem;
+    padding-right: 12.5rem;
+    padding-bottom: 10rem;
+  }
+  #kazi {
+    border-style: solid;
+    height: 483px;
+    width: 375px;
+    scale: 1;
+  }
+  #links {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+  }
+  #quotes {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+  }
+  #awards {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0.5rem 0.5rem;
+    background-color: cornsilk;
+    height: 6rem;
+  }
+  #award-container {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 13rem;
+    background-color: cornsilk;
+  }
+  .medals {
+    border-style: solid;
+    border-radius: 0.5rem;
+    width: 22%;
+    height: 11rem;
+    padding: 0.5rem 0.5rem;
+    align-items: center;
+    justify-content: center;
+    text-align:left;
+  }
+  #works {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    height: 30rem;
+    margin: 0 auto;
+    gap: 1rem;
+    background-color: cornsilk;
+  }
+  #poetry {
+    width: 50%;
+    margin: 0 auto;
+    padding: 1rem 3rem;
+    text-align: justify;
+  }
+  #poet {
+    text-align: center;
+    padding: 1rem 1rem;
+  }
+  #poem {
+    width: 50%;
+    margin: 0 auto;
+    padding: 1rem 3rem;
+    text-align: justify;
+  }
+  #poemt {
+    text-align: center;
+    padding: 1rem 1rem;
+  }
+  #footer {
+    overflow-x: hidden;
+    background-color: black;
+    width: 100%;
+    margin: 0 auto;
+    height: 15rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  #left {
+    color: whitesmoke;
+    width: 30%;
+    margin: 0 auto;
+    padding: 1rem 1rem;
+    border-right: solid;
+    text-align: justify;
+    height: 12rem;
+    align-items: center;
+    justify-content: center;
+  }
+  #center {
+    color: whitesmoke;
+    width: 30%;
+    margin: 0 auto;
+    padding: 1rem 1rem;
+    border-right: solid;
+    text-align: justify;
+    height: 12rem;
+    align-items: center;
+    justify-content: center;
+  }
+  #right {
+    color: whitesmoke;
+    width: 30%;
+    margin: 0 auto;
+    padding: 1rem 1rem;
+    text-align: justify;
+    height: 12rem;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 768px) and (orientation : portrait) {
+  body {
+    width: 100%;
+    padding: 0rem;
+    margin: 0 auto;
+  }
+  #container {
+    width: 100%;
+    padding: 0rem 0rem;
+    background-color: black;
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+  #menus {
+    display: flex;
+    color: whitesmoke;
+    flex-direction: row;
+    gap: 2rem;
+    list-style-type: none;
+    height: 3rem;
+    width: 0 auto;
+    align-items: center;
+    margin: 0rem 0rem;
+    padding: 3rem 5rem;
+    justify-content: flex-start;
+  }
+  .poet {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+  }
+  h1 {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto !important;
+    font-size: 4rem !important;
+    align-items: center;
+    justify-content: center;
+  }
+  #slogan {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto !important;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+  #about {
+    display: flex;
+    flex-direction: row;
+    background-color: antiquewhite;
+    width: 100%;
+    margin: 0 auto;
+    height: 80vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  #left-side {
+    width: 80%;
+    padding: 3rem 2rem;
+    text-align: justify;
+  }
+  .para {
+    font-size: 0.9rem;
+  }
+  #right-side {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    padding-left: 9rem;
+    padding-right: 11.5rem;
+    padding-bottom: 13rem;
+  }
+  #kazi {
+    border-style: solid;
+    height: 383px;
+    width: 275px;
+    scale: 1;
+  }
+  #links {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+  }
+  #quotes {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+  }
+  #word {
+    color: whitesmoke;
+    padding: 2rem 2rem;
+    margin: 0 auto;
+    font-size: 1.3rem;
+  }
+  #awards {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0.5rem 0.5rem;
+    background-color: cornsilk;
+    height: 3rem;
+  }
+
+  #award{
+    font-size: 1.7rem;
+  }
+  #award-container {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 13rem;
+    background-color: cornsilk;
+  }
+  .medals {
+    border-style: solid;
+    border-radius: 0.5rem;
+    width: 22%;
+    height: 11rem;
+    padding: 0.5rem 0.5rem;
+    align-items: center;
+    justify-content: center;
+    text-align:left;
+    font-size: 0.8rem;
+  }
+  #works {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    height: 30rem;
+    margin: 0 auto;
+    gap: 0.1rem;
+    background-color: cornsilk;
+  }
+  #poetry {
+    width: 50%;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    text-align: justify;
+    font-size: 0.9rem ;
+  }
+  #poet {
+    text-align: center;
+    padding: 0.5rem 0.5rem;
+  }
+  #poem {
+    width: 50%;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    text-align: justify;
+    font-size: 0.9rem ;
+  }
+  #poemt {
+    text-align: center;
+    padding: 0.5rem 0.5rem;
+  }
+  #footer {
+    overflow-x: hidden;
+    background-color: black;
+    width: 100%;
+    margin: 0 auto;
+    height: 11rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  #left {
+    color: whitesmoke;
+    width: 30%;
+    margin: 0 auto;
+    padding: 1rem 1rem;
+    border-right: solid;
+    text-align: justify;
+    height: 7rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+  }
+  #center {
+    color: whitesmoke;
+    width: 30%;
+    margin: 0 auto;
+    padding: 1rem 1rem;
+    border-right: solid;
+    text-align: justify;
+    height: 7rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+  }
+  #right {
+    color: whitesmoke;
+    width: 30%;
+    margin: 0 auto;
+    padding: 1rem 1rem;
+    text-align: justify;
+    height: 8rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+  }
+}
